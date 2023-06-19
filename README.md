@@ -23,10 +23,12 @@ step 7:Print the output.
 ```python
 Developed by: DEVADARSHAN A S
 Registered number: 212222110007
+```
+```
 with open("text2.txt","r") as f1:
     with open("MyFile.txt","a") as f2:
         for line in f1:
-            f2.write(line)
+      f2.write(line)
 ```
 ### OUTPUT:
 ![image](https://github.com/DEVADARSHAN2/copy-file/assets/119432150/2fcbb87e-d600-488c-93a7-7f1ea9d53656)
